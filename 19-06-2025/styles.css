@@ -1,0 +1,28 @@
+/* This file contains the styles for the web application */
+h1 {   
+  color: blue;
+  font-size: 30px;
+}
+
+p { 
+  color: green;
+}
+
+div{
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+  border: 2px;
+  border-style: dashed;
+  border-color: black;
+}
+
+button{
+  background-color: blueviolet;
+  color: white;
+}
+
+button:hover{
+  background-color: blue;
+
+}

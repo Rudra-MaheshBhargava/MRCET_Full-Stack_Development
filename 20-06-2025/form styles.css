@@ -1,0 +1,44 @@
+body {
+            align-items: center;
+    font-family: 'Inter', sans-serif; /* Using Inter font as per instructions */
+            background-color: #1376c2; /* Light background */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Full viewport height */
+            margin: 0;
+            padding: 20px; /* Add some padding around the form */
+            box-sizing: border-box; /* Include padding in element's total width */
+        }
+
+        form {
+            background-color: rgb(233, 7, 7); /* White background for the form */
+            padding: 35px;
+            border-radius: 12px; /* More rounded corners */
+           
+            width: 100%;
+            max-width: 600px; /* Max width for better form presentation */
+           
+            border: 1px solid #0a0a0a; /* Subtle border */
+        }
+
+        fieldset {
+            border: 1px solid #dcdcdc; /* Light border for fieldset */
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px; /* Space after fieldset */
+            background-color: #ffffff;
+        }
+
+        /* Heading within Fieldset */
+        h1 {
+            text-align: center;
+            color: #007bff; /* Primary blue for main heading */
+            margin-top: 0;
+            margin-bottom: 30px;
+            font-size: 2em;
+            letter-spacing: -0.5px;
+        }
+
+         .form-group {
+            margin-bottom: 20px; /* Space between each input group */
+        }

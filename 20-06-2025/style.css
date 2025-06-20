@@ -1,0 +1,130 @@
+body {
+            align-items: center;
+    font-family: 'Inter', sans-serif; /* Using Inter font as per instructions */
+            background-color: #1376c2; /* Light background */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Full viewport height */
+            margin: 0;
+            padding: 20px; /* Add some padding around the form */
+            box-sizing: border-box; /* Include padding in element's total width */
+        }
+
+        /* Form Container Styling */
+       form {
+            background-color: red; /* White background for the form */
+            padding: 35px;
+            border-radius: 12px; /* More rounded corners */
+           
+            width: 100%;
+            max-width: 600px; /* Max width for better form presentation */
+           
+            border: 1px solid #0a0a0a; /* Subtle border */
+        }
+
+        /* Fieldset Styling for grouping */
+        fieldset {
+            border: 1px solid #dcdcdc; /* Light border for fieldset */
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px; /* Space after fieldset */
+            background-color: #ffffff;
+        }
+
+      
+        /* Heading within Fieldset */
+        h1 {
+            text-align: center;
+            color: #007bff; /* Primary blue for main heading */
+            margin-top: 0;
+            margin-bottom: 30px;
+            font-size: 2em;
+            letter-spacing: -0.5px;
+        }
+
+        /* Individual Form Group (Label + Input/Textarea) */
+        .form-group {
+            margin-bottom: 20px; /* Space between each input group */
+        }
+
+        label {
+            display: block; /* Make labels stack above inputs */
+            margin-bottom: 8px;
+            font-weight: 600; /* Slightly bolder */
+            color: #34495e; /* Dark grey for labels */
+            font-size: 0.95em;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"],
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ffffff;
+            border-radius: 6px; /* Slightly more rounded input fields */
+            font-size: 1em;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus,
+        input[type="date"]:focus,
+        textarea:focus {
+            border-color: #007bff; /* Highlight border on focus */
+            box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Subtle glow on focus */
+            outline: none; /* Remove default outline */
+        }
+
+        textarea {
+            resize: vertical; Allow vertical resizing for textarea
+            min-height: 80px; /* Minimum height for textarea */
+        }
+
+        /* Gender Radio Button Group */
+        .gender-group {
+            display: flex; /* Use flexbox for horizontal alignment */
+            gap: 20px; /* Space between radio button options */
+            margin-top: 10px; /* Space below "Enter your gender" label */
+            margin-bottom: 25px; /* Space below the group */
+            align-items: center; /* Align items vertically */
+        }
+
+        .gender-group label {
+            display: inline-block; /* Make labels for radios inline */
+            margin-left: 5px; /* Space between radio button and its label */
+            font-weight: normal; /* Normal weight for radio labels */
+            margin-bottom: 0; /* Remove bottom margin for radio labels */
+        }
+
+        input[type="radio"] {
+            transform: scale(1); /* Slightly larger radio buttons */
+            margin-right: 5px; /* Space between radio button and its label */
+            cursor: pointer;
+        }
+
+        /* Submit Button Styling */
+        input[type="submit"] {
+            width: 100%;
+            padding: 14px;
+            background-color: #28a745; /* Green button */
+            color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 6px;
+            font-size: 1.15em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            margin-top: 15px; /* Space above button */
+        }
+
+       
+
+        input[type="submit"]:hover {
+            background-color: #218838; /* Darker green on hover */
+            transform: translateY(-2px); /* Slight lift effect */
+            box-shadow: 0 4px 10px rgba(40, 167, 69, 0.3); /* Shadow on hover */
+        }-->
