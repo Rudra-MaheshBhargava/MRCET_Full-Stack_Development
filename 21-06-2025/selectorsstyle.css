@@ -1,0 +1,78 @@
+
+        /* -------------------------------------- */
+        /* 1. Universal Selector: * */
+        /* Targets ALL HTML elements. Use sparingly! */
+        /* -------------------------------------- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Good practice for all elements */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        /* -------------------------------------- */
+        /* 2. Element (Type) Selector: p, h1, div */
+        /* Targets all instances of a specific HTML tag. */
+        /* -------------------------------------- */
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        div {
+            background-color: #e9ecef;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        /* -------------------------------------- */
+        /* 3. ID Selector: #myUniqueElement       */
+        /* Targets a single element with a specific ID. */
+        /* IDs must be unique per page. */
+        /* -------------------------------------- */
+        #main-heading {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+
+        #special-paragraph {
+            font-style: italic;
+            color: #6c757d;
+        }
+
+        /* -------------------------------------- */
+        /* 4. Class Selector: .myClass            */
+        /* Targets all elements with a specific class attribute. */
+        /* Classes can be used on multiple elements. */
+        /* -------------------------------------- */
+        .highlight {
+            background-color: #ffe066; /* Yellow highlight */
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        
