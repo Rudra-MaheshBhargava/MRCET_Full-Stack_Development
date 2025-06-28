@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box" style="width: 100px; height: 100px; background-color: lightblue;"></div>
+    <br><br>
+    <button id="doubleClickMe">Double Click Me!</button>
+    <script>
+       let a= document.getElementById("box");
+       a.addEventListener("dblclick", function() {
+            
+             a.style.backgroundColor = "lightblue"; 
+            a.innerHTML = "Double Clicked!";
+            a.style.backgroundColor = a.style.backgroundColor === "lightblue" ? "lightcoral" : "lightblue";
+        });
+        document.getElementById("doubleClickMe").addEventListener("dblclick", function() {
+            alert("Button was double clicked!");
+        });
+    </script>
+</body>
+</html>
