@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    {% for csd in csd_list %}
+        <div>
+            <a href="{% url 'details' slug=csd.slug %}">{{ csd.name }}</a>
+            <h2>
+                Roll No: {{ csd.roll_no }}
+            </h2>
+        </div>
+        {% comment %} add register.html {% endcomment %}
+        <a href="{% url 'register' %}">Register</a>
+        {% comment %} add login.html {% endcomment %}
+        <br>
+        <a href="{% url 'login' %}">Login</a>
+        <br>
+        {% comment %} add logout.html {% endcomment %}
+        <a href="{% url 'logout' %}">logout</a>
+    {% endfor %}
+</body>
+</html>
